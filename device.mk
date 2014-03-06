@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 # Prebuilt system/etc
 PRODUCT_COPY_FILES += \
     $(DEVICE_FOLDER)/prebuilt/etc/mountd.conf:/system/etc/mountd.conf \
+    $(DEVICE_FOLDER)/prebuilt/etc/init.d/00_frandom:/system/etc/init.d/00_frandom \
     $(DEVICE_FOLDER)/prebuilt/etc/firmware/ducati-m3.512MB.bin:/system/etc/firmware/ducati-m3.512MB.bin
 
 # Prebuilt system/lib
