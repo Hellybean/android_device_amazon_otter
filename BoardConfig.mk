@@ -32,7 +32,6 @@ BOARD_SDCARD_DEVICE_INTERNAL := /dev/block/platform/omap/omap_hsmmc.1/by-name/me
 # Kernel Build
 TARGET_KERNEL_SOURCE := kernel/amazon/otter-common
 TARGET_KERNEL_CONFIG := otter_android_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := cortex-a9
 
 # Filesystem
 TARGET_RECOVERY_FSTAB = $(DEVICE_FOLDER)/fstab.otter
